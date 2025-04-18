@@ -1,0 +1,3 @@
+@echo off
+echo Starting Digital Chama development servers...
+npm run dev 
