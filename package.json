@@ -1,23 +1,25 @@
 {
   "name": "digital-chama",
   "version": "1.0.0",
-  "description": "A platform for managing chama groups",
+  "description": "Digital Chama - A digital platform for chama/group savings management",
   "main": "index.js",
   "scripts": {
-    "server": "cd server && npm run dev",
     "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "chama",
-    "finance",
     "savings",
-    "groups"
+    "groups",
+    "financial",
+    "management"
   ],
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
+  "license": "ISC",
+  "dependencies": {
     "concurrently": "^8.2.2"
   }
 }
